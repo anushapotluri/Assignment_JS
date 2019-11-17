@@ -1,0 +1,500 @@
+    4  adduser anusha bumblebee
+    5  service bumblebeed restart 
+    6  nano /etc/bumblebee/bumblebee.conf 
+    7  optirun -vv glxgears 
+    8  optirun -vv glxgears 
+    9  optirun -vv glxgears 
+   10  groups | grep bumblebee
+   11  optirun -vv glxgears 
+   12  reboot 
+   13  optirun -vv glxgears 
+   14  reboot 
+   15  dpkg -i teamviewer_12.0.76279_i386.deb 
+   16  apt -f install
+   17  dpkg --add-architecture i386
+   18  apt get update
+   19  dpkg --add-architecture armhf
+   20  dpkg --remove-architecture armhf
+   21  apt-get update
+   22  apt-get -f install
+   23  apt-get update
+   24  apt-get install xournal
+   25  nano /etc/apt/sources.list
+   26  apt-get update
+   27  apt-get upgrade
+   28  apt install qbittorrent
+   29   reboot 
+   30  apt install qbittorrent
+   31  apt install gnome-settings-daemon
+   32  apt install qbittorrent
+   33  apt install vlc
+   34  apt autoremove
+   35  apt autoremove
+   36  apt install shutter
+   37  apt update
+   38  apt install shutter
+   39  apt install xserver-xorg-input-libinput
+   40  apt install xserver-xorg-input-synaptics
+   41  apt remove xserver-xorg-input-synaptics
+   42  apt install pip
+   43  apt update
+   44  apt-get install python-pip
+   45  apt install python-pip
+   46  apt install sudo
+   47  adduser anusha sudo
+   48  visudo 
+   49  apt install sudo
+   50  apt install vi
+   51  apt updat
+   52  apt update
+   53  apt list --upgradable
+   54  apt upgrade
+   55  apt install autotools-dev automake
+   56  apt install build-essential libtool
+   57  chmod 777 -R audio_analysis/opensmile/
+   58  apt install gcc
+   59  apt autoremove
+   60  apt install libopenblas-dev
+   61  cd Downloads/
+   62  dpkg -i sonic-visualiser_3.0.3_amd64.deb 
+   63  apt -f install
+   64  whereis SMILEExtract
+   65  apt install python-tk
+   66  apt install ffmpeg
+   67  apt install avconv
+   68  apt instal chromium
+   69  apt install chromium
+   70  cd Downloads/
+   71  dpkg -i atom-amd64.deb 
+   72  cd /var/log/syslog
+   73  tail -f /var/log/syslog
+   74  tail /var/log/syslog
+   75  gedit /var/log/syslog
+   76  apt search python-virtual
+   77  apt install python-virtualenv
+   78  apt search portaudio
+   79  apt install portaudio19-dev
+   80  pip install jupyter
+   81  apt install axel
+   82  time
+   83  date
+   84  shutdown 01:00
+   85  dmesg -w
+   86  ls
+   87  dd bs=1M if=freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img of=/dev/sdb conv=fdatasync
+   88  gparted;
+   89  gparted
+   90  apt install gpareted
+   91  apt install gparted
+   92  gparted
+   93  ls
+   94  rm freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img
+   95  rm freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img.xz.0
+   96  rm freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img.xz.*
+   97  ls
+   98  ls
+   99  ls
+  100  ls
+  101  dd bs=1M if=freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img of=/dev/sdb conv=fdatasync
+  102  sync
+  103  rm freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img.*
+  104  ls
+  105  rm freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img
+  106  dmesg
+  107  dd bs=1M if=freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img of=/dev/sdb conv=fdatasync
+  108  tail -f /var/log/syslog
+  109  ping freedombox.local
+  110  ping freedombox.local
+  111  tail -f /var/log/syslog
+  112  gparted
+  113  apt install btrfs-utils
+  114  apt search btrfs
+  115  apt install btrfs-tools
+  116  gparted
+  117  shutdown 10:30
+  118  apt install libgtk2.0-0
+  119  apt search KompoZer
+  120  apt search kompozer
+  121  ls
+  122  sh kompozer
+  123  apt install libgtk2.0-0
+  124  apt search bluefish
+  125  apt install bluefish
+  126  sh kompozer
+  127  cd ..
+  128  cd ..
+  129  dpkg -i bluegriffon-3.0.1.Ubuntu16.04-x86_64.deb
+  130  apt install pdfsam
+  131  apt search wkhtmltopdf
+  132  apt search weasyprint
+  133  apt install wkhtmltopdf
+  134  cd Downloads/
+  135  dpkg -i master-pdf-editor-4.3.82_qt5.amd64.deb 
+  136  apt update
+  137  apt list --upgradable
+  138  apt upgrade
+  139  apt dist-upgrade
+  140  apt install rename
+  141  cd ..
+  142  ls
+  143  ls
+  144  source env/bin/activate
+  145  ls
+  146  cd Voice-Emotion-Detector-master/
+  147  jupyter notebook
+  148  apt install mplayer
+  149  ls
+  150  apt search adb
+  151  apt update
+  152  apt list --upgradable
+  153  apt upgrade
+  154  apt search adb
+  155  apt install android-sdk-platform-tools-common
+  156  apt install adb
+  157  apt install android-tools-adb
+  158  apt install andriod-tools
+  159  apt search fastboot
+  160  apt install android-tools-fastboot fastboot
+  161  adb devices
+  162  adb devices
+  163  adb devices
+  164  adb devices
+  165  adb devices
+  166  adb devices
+  167  adb devices
+  168  adb devices
+  169  adb devices
+  170  fastboot oem unlock
+  171  fastboot erase recovery
+  172  fastboot erase recovery
+  173  fastboot erase recovery
+  174  apt-get install mtp-tools mtpfs
+  175  apt-get install mtp-tools mtpfs
+  176  apt-get install mtp-tools
+  177  gedit /etc/udev/rules.d/51-android.rules
+  178  chmod +x /etc/udev/rules.d/51-android.rules
+  179  service udev restart
+  180  mkdir /media/nexus4
+  181  chmod 755 /media/nexus4
+  182  mtpfs -o allow_other /media/nexus4
+  183  mtp -o allow_other /media/nexus4
+  184  mtp-connect -o allow_other /media/nexus4
+  185  adb shell am start -n com.android.settings/.DevelopmentSettings
+  186  adb restart
+  187  adb reboot sideload 
+  188  adb wait-for-device
+  189  apt search virtualbox
+  190  apt search virtual
+  191  gedit /etc/udev/rules.d/51-android.rules
+  192  apt install mtpfs
+  193  apt search mtpfs
+  194  apt install go-mtpfs
+  195  mtp-connect -o allow_other /media/nexus4
+  196  mtpfs -o allow_other /media/nexus4
+  197  go-mtpfs -o allow_other /media/nexus4
+  198  apt install jmtpfs
+  199  jmtpfs -o allow_other /media/nexus4
+  200  gedit /etc/udev/rules.d/51-android.rules
+  201  gedit /etc/udev/rules.d/51-android.rules
+  202  service udev start
+  203  service udev restart
+  204  adb kill-server
+  205  adb start-server
+  206  adb start-server
+  207  adb devices
+  208  adb devices
+  209  adb devices
+  210  adb devices
+  211  adb devices
+  212  /etc/init.d/networking start
+  213  /etc/init.d/network-manager start
+  214  /etc/init.d/networking restart
+  215  /etc/init.d/network-manager restart
+  216  ping eff.org
+  217  nano /etc/resolv.conf 
+  218  /etc/init.d/network-manager restart
+  219  /etc/init.d/networking restart
+  220  ping eff.org
+  221  ping eff.org
+  222  ping eff.org
+  223  ping eff.org
+  224  apt install qbittorrent
+  225  apt update
+  226  apt upgrade
+  227  apt dist-upgrade
+  228  lsmod | grep -i 'nouveau'
+  229  apt install vga_switcheroo
+  230  modprobe -r nouveau
+  231  modprobe -r vga_switcheroo
+  232  apt install install gcc make linux-headers-amd64
+  233  apt install gcc make linux-headers-amd64
+  234  apt install dkms bbswitch-dkms
+  235  modprobe bbswitch load_state=0
+  236  cat /proc/acpi/bbswitch
+  237  su -c 'echo "blacklist nouveau" >> /etc/modprobe.d/nouveau-blacklist.conf'
+  238  apt install nvidia-kernel-dkms nvidia-xconfig nvidia-settings
+  239  apt install nvidia-vdpau-driver vdpau-va-driver mesa-utils
+  240  apt install bumblebee-nvidia
+  241  cd Downloads/
+  242  dpkg -i virtualgl_2.6.1_amd64.deb
+  243  nano /etc/bumblebee/bumblebee.conf
+  244  usermod -aG bumblebee $USER
+  245  service bumblebeed restart
+  246  gedit etc/bumblebee/xorg.conf.nvidia
+  247  nano etc/bumblebee/xorg.conf.nvidia
+  248  nano /etc/bumblebee/xorg.conf.nvidia
+  249  service bumblebeed restart
+  250  optirun -vv glxgears
+  251  shutdown -h now
+  252  apt install uget
+  253  apt install lshw
+  254  lshw -c display
+  255  apt install software-properties-common
+  256  add-apt-repository contrib
+  257  add-apt-repository non-free
+  258  lsb_release 
+  259  lsb_release -a
+  260  nvidia-xconfig
+  261  glxinfo | grep OpenGL
+  262  apt install nvidia-driver
+  263  nvidia-xconfig
+  264  apt install bumblebee bumblebee-nvidia primus primus-libs:i386 libgl1-nvidia-glx:i386
+  265  apt install inxi
+  266  inxi -Fxz 
+  267  gpu-manager.log 
+  268  gedit /var/log/gpu-manager.log
+  269  apt install gpu-manager
+  270  cat /proc/acpi/bbswitch
+  271  glxinfo | grep OpenGL
+  272  primusrun glxinfo | grep OpenGL
+  273  enable `bumblebee.service`
+  274  primusrun glxinfo | grep OpenGL
+  275  optirun -b none nvidia-settings -c :8
+  276  bumblebeed
+  277  nano /etc/apt/sources.list
+  278  apt purge bumblebee
+  279  lshw -c display
+  280  apt-get purge i915
+  281  apt-get purge i915-3.15-3.13-dkms
+  282  gedit xserver-xorg-video-intel
+  283  find i915
+  284  lspci -kvnn
+  285  modinfo i915 | grep filename
+  286  nano /lib/modules/4.9.0-8-amd64/kernel/drivers/gpu/drm/i915/i915.ko
+  287  lsmod | less
+  288  modinfo i915 | less
+  289  modinfo i915 | grep -i version
+  290  modinfo i915 | less
+  291  lspci -k | grep -EA3 'VGA|3D|Display'
+  292  gedit /etc/X11/xorg.conf
+  293  gedit /etc/X11/xorg.conf
+  294  apt-get autoremove --purge intel-linux-graphics-installer
+  295  apt-get autoremove --purge i915-3.6-3.5-dkms
+  296  modinfo i915 | grep filename
+  297  cd /lib/modules/4.9.0-8-amd64/kernel/drivers/gpu/drm/i915/
+  298  ls
+  299  cd..
+  300  cd ..
+  301  ls
+  302  modinfo i915
+  303  apt purge i915-4.9.0-8.dkms
+  304  apt purge i915-4.9.dkms
+  305  apt purge i915
+  306  apt purge i915.*.dkms
+  307  apt purge i915.*
+  308  cd ..
+  309  cd /home/ch
+  310  cd /home/
+  311  apt upgrade
+  312  reboot -h now
+  313  apt purge xserver-xorg-video-intel
+  314  apt install xserver-xorg-video-intel
+  315  nano /etc/X11/xorg.conf
+  316  apt install bbswitch-dkms
+  317  find bumblebee
+  318  apt install bumblebee-nvidia
+  319  apt install xrandr
+  320  apt install x11-xserver-utils
+  321  apt install x11-xserver-utils:i386
+  322  apt -f install
+  323  apt autoremoev
+  324  apt autoremove
+  325  apt install bbswitch primus
+  326  add user anusha bumblebee
+  327  adduser anusha bumblebee
+  328  apt install primus
+  329  apt update
+  330  nano /etc/apt/sources.list
+  331  apt update
+  332  apt list --upgradable
+  333  apt update
+  334  echo "nameserver 8.8.8.8" | tee /etc/resolv.conf > /dev/null
+  335  echo "nameserver 8.8.8.8" | tee /etc/resolv.conf > /dev/null
+  336  ping eff.org
+  337  shutdown -h now
+  338  apt update
+  339  ping eff.org
+  340  /etc/resolvconf/
+  341  whereis resolv.conf
+  342  nano /etc/resolv.conf
+  343  /etc/network/
+  344  whereis resolv.conf
+  345  ping eff.org
+  346  /etc/network/resolv.conf
+  347  lspci
+  348  ip addr
+  349  /etc/init.d/networking restart
+  350  ping eff.org
+  351  chmod o+r /etc/resolv.conf 
+  352  nano /etc/resolv.conf 
+  353  ping -c4 8.8.8.8
+  354  cat /etc/resolv.conf 
+  355  nano /etc/network/interfaces
+  356  /etc/init.d/networking restart
+  357  ping eff.org
+  358  apt update
+  359  apt list --upgradable
+  360  apt update
+  361  apt upgrade
+  362  apt install primus
+  363  apt install bbswitch primus
+  364  apt install bbswitch
+  365  apt install x11-xserver-utils
+  366  apt install xrandr
+  367  optirun glxgears -info
+  368  apt install bumblebee-nvidia
+  369  apt install libg11-nvidia-glx
+  370  lspci
+  371  lspci | grep 3D
+  372  lspci | grep OpenGL
+  373  lspci | grep VGA
+  374  apt install wireless-tools
+  375  apt install broadcom-sta-dkms
+  376  modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+  377  modprobe wl
+  378  apt install bbswitch-dkms
+  379  modprobe bbswitch load_state=0
+  380  cat /proc/acpi/bbswitch 
+  381  lspci -v | grep -i 'vga' | grep -i 'nvidia'
+  382  nano /etc/bumblebee/bumblebee.conf 
+  383  addgroup anusha bumblebee
+  384  mousepad /etc/default/grub
+  385  optirun glxgears
+  386  lsmod | grep -E 'nvidia|nouveau'
+  387  grep bumblebeed /var/log/syslog
+  388  apt install linux-headers-generic
+  389  service bumbledbeed restart
+  390  service bumblebeed restart
+  391  service bumblebee restart
+  392  service bumblebeed restart
+  393  optirun glxgears
+  394  optirun playonlinux
+  395  lspci | grep SD
+  396  lspci | grep 3D
+  397  lspci | grep VGA
+  398  optirun --status
+  399  nano /etc/bumblebee/xorg.conf.nvidia 
+  400  optirun glxgears
+  401  glxgears
+  402  servie bumblebeed restart
+  403  service bumblebeed restart
+  404  glxgears -info
+  405  reboot
+  406  /etc/init.d/gdm3 restart
+  407  cat ~/.xsession-errors
+  408  cat /var/log/Xorg.0.log
+  409  cat /var/log/Xorg.0.log more
+  410  cat /var/log/Xorg.0.log | less
+  411  gdm3
+  412  nano /etc/X11/default-display-manager 
+  413  cat /var/log/Xorg.0.log | grep 'i915'
+  414  cat /var/log/Xorg.0.log | grep 'failed'
+  415  cat /var/log/Xorg.0.log | find 'failed'
+  416  cat /var/log/Xorg.0.log | grep 'ok'
+  417  cat /var/log/Xorg.0.log
+  418  cat /var/log/Xorg.0.log | grep "evdev"
+  419  cat /var/log/Xorg.0.log | grep "i915"
+  420  cat /var/log/Xorg.0.log | grep "failed"
+  421  cat /var/log/Xorg.0.log | grep failed
+  422  cat /var/log/Xorg.0.log | grep Failed
+  423  cat /var/log/Xorg.0.log | grep evdev
+  424  cd /home/ch
+  425  cd /home/anusha/
+  426  rm ~/.Xauthority
+  427  whereis Xauthority
+  428  ls
+  429  dpkg-reconfigure gdm3
+  430  dmesg
+  431  apt install lightdm
+  432  nano /etc/X11/default-display-manager 
+  433  /etc/init.d/lightdm restart
+  434  reboot
+  435  dmesg
+  436  apt purge xserver-xorg-video-nouveau
+  437  reboot
+  438  dmesg
+  439  dmesg | less
+  440  dmesg
+  441  rm /etc/X11/xorg.conf
+  442  reboot
+  443  apt update
+  444  nano /etc/resolv.conf 
+  445  apt update
+  446  nano /etc/resolv.conf 
+  447  /etc/init.d/network-manager restart
+  448  /etc/init.d/networking restart
+  449  ping eff.org
+  450  apt update
+  451  apt upgrade
+  452  apt autoremove
+  453  apt install xorg x11-apps
+  454  apt upgrade
+  455  nano /etc/bumblebee/xorg.conf.nvidia
+  456  cat /proc/acpi/bbswitch
+  457  'echo "blacklist nouveau" >> /etc/modprobe.d/nouveau-blacklist.conf'
+  458  apt install htop
+  459  htop
+  460  vlc
+  461  /etc/init.d/networking restart
+  462  /etc/init.d/lightdm restart
+  463  reboot
+  464  apt install calibre
+  465  apt install firmware-atheros
+  466  apt install youtude-dl
+  467  apt install libnss-mdns
+  468  nmap -sS -p 22 192.168.100.0/24
+  469  dmesg
+  470  /etc/init.d/lightdm restart
+  471  reboot 
+  472  /etc/init.d/lightdm restart
+  473  apt install keepass
+  474  apt search keepass
+  475  apt install keepassx
+  476  /etc/init.d/lightdm restart 
+  477  /etc/init.d/lightdm restart
+  478  dmesg
+  479  nano /etc/network/interfaces
+  480  reboot
+  481  nano /etc/resolv.conf 
+  482  /etc/init.d/networking restart
+  483  /etc/init.d/network-manager restart
+  484  ping eff.org
+  485  nano /etc/resolv.conf 
+  486  ping eff.org
+  487  /etc/lightdm/restart
+  488  /etc/lightdm/
+  489  logout
+  490  /etc/init.d/lightdm restart
+  491  reboot
+  492  apt update
+  493  apt upgrade
+  494  cd ../../Downloads/
+  495  dpkg -i code_1.39.2-1571154070_amd64.deb 
+  496  apt upgrade
+  497  apt dist-upgrade
+  498  uname -r
+  499  lsb_release -a
+  500  htop
+  501  nano /etc/bumblebee/xorg.conf.nvidia
+  502  history
+  503  history > history_for_print.txt
