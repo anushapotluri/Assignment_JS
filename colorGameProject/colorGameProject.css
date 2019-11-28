@@ -44,15 +44,18 @@
 }
 .section-styles {
     background-color: black;
+    height: 750px;
 }
 .color-box {
-    height: 60px;
-    width: 60px;
+    height: 3%;
+    width: 3%;
+    font-size: 20px;
     background : #3b76a9;
+    margin: 100px;
+    border-radius: 30px;
 }
 .section-content {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap-reverse;
-    width: 50px;
+    flex-flow: row wrap;
 }
