@@ -45,17 +45,23 @@
 .section-styles {
     background-color: black;
     height: 750px;
+    /*display: flex;
+   justify-content: center;*/
 }
 .color-box {
-    height: 3%;
-    width: 3%;
-    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
     background : #3b76a9;
-    margin: 100px;
+    margin-top: 10px;
+    margin: 5px;
     border-radius: 30px;
+    text-align: center;
 }
 .section-content {
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 480px;
+    margin: 0 auto;
 }
