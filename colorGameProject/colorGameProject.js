@@ -1,13 +1,13 @@
-var newcolors = document.getElementById('new-color');
-var headingNumberRed = Math.floor(Math.random() * 256);
+/*var newcolors = document.getElementById('new-color');*/
+/*var headingNumberRed = Math.floor(Math.random() * 256);
 var headingNumberGreen = Math.floor(Math.random() * 256); 
-var headingNumberBlue = Math.floor(Math.random() * 256);
+var headingNumberBlue = Math.floor(Math.random() * 256);*/
 
-document.addEventListener('DOMContentLoaded', randomColor);
-newcolors.addEventListener('click', defaultValues);
+//document.addEventListener('DOMContentLoaded', randomColor);
+/*newcolors.addEventListener('click', defaultValues);*/
 
 /*generate random color*/
-function randomColor(){
+/*function randomColor(){
   var colorbox = document.getElementsByClassName('color-box');
   for(var i=0;i<6;i++){
   var redComponent =Math.floor(Math.random() * 256);
@@ -19,19 +19,19 @@ function randomColor(){
   var randomSelection = Math.floor(Math.random() * 6);
   console.log(randomSelection);
   colorbox[randomSelection].style.background = "rgb(" + headingNumberRed +", " + headingNumberGreen +", "+ headingNumberBlue + ")";
-}
-window.addEventListener('load', randomHeading);
+}*/
+/*window.addEventListener('load', randomHeading);*/
 
 /*Generate random heading*/
-function randomHeading() {
+/*function randomHeading() {
   var headingcolor = document.getElementById('heading-color');
   headingcolor.textContent = 
         "rgb(" + headingNumberRed + ", " + headingNumberGreen +", "+ headingNumberBlue + ")";
        // document.getElementById('header').style.background = '#3b76a9';
-}
+}*/
 
 /*click on any colorbox*/
-var colorbox = document.getElementsByClassName('color-box');
+/*var colorbox = document.getElementsByClassName('color-box');
 var headingcolor = document.getElementById('heading-color');
 for(i=0;i<6;i++){
 colorbox[i].addEventListener('click', function() {
@@ -48,14 +48,14 @@ if(this.style.backgroundColor === headingcolor.textContent) {
   document.getElementById('show-text').textContent = "try again";
 }
 });
-}
-
+}*/
+/*
 function defaultValues(){
 document.getElementById('header').style.background = '#3b76a9';
 document.getElementById('new-color').textContent = "New Colors";
 document.getElementById('show-text').textContent = " ";
 randomColor();
-}
+}*/
 
 
 
