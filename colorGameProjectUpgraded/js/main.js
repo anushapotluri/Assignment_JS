@@ -4,8 +4,8 @@ var colorBoxesContainer = document.getElementById('color-boxes-container');
 window.onload = function() {
 addRandomColorToHeading();
 addBoxesToDom(numberOfColorBoxes, colorBoxesContainer);
+addColorsToBoxes();
+addHeadingColorToARandomBox();
 }
-//random colors
 
-//to be contd
 
