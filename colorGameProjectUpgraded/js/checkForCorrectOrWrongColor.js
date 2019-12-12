@@ -1,3 +1,0 @@
-/*function checkForCorrectOrWrongColor() {
-    if()
-}*/
