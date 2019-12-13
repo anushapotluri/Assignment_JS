@@ -1,5 +1,3 @@
-var newGame= document.getElementById('new-color');
-newGame.addEventListener('click',resetGame);
 function initiateGame() {
     addRandomColorToHeading();
     addBoxesToDom(numberOfColorBoxes, colorBoxesContainer);
@@ -10,8 +8,14 @@ function initiateGame() {
 function resetGame(){
     var header = document.getElementById('header');
     var colorBoxesContainer = document.getElementById('color-boxes-container');
+    var colorBoxElements = colorBoxesContainer.children; 
+    var messageBar = document.getElementById('message-bar');
+    var newGame = document.getElementById('new-color');
     header.style.backgroundColor = '#3b76a9';
-    //colorBoxesContainer.style.display = "none";
-    colorBoxesContainer.removeChild();
+    while(colorBoxElements.length > 0){
+        colorBoxesContainer.children[0].remove();
+    }
+    messageBar.textContent = "";  
+    newGame.textContent = "New Colors";
     initiateGame();
 }
