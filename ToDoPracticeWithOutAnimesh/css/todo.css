@@ -19,8 +19,9 @@
 text-decoration-line: line-through;
 }
 .showDeleteIcon {
-background: url('/home/anusha/projectJs/Assignment_JS/ToDo/images/Selection_041.png');
+background-image: url('/home/anusha/projectJs/Assignment_JS/ToDo/images/Selection_041.png');
 width: 20px;
 height: 20px;
 position: relative;
+background-repeat: no-repeat;
 }

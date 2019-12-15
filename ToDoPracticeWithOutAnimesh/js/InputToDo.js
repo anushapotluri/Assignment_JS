@@ -19,19 +19,29 @@ inputElement.addEventListener('change', function(event){
     var ul = document.getElementById('section');
     var li = document.createElement('li');
     li.textContent = inputElement.value;
+    var deleteBtn = document.createElement('button');
+    deleteBtn.classList.add('showDeleteIcon');
+    deleteBtn.style.visibility = "hidden";
+    deleteBtn.addEventListener('click', function() {
+        li.remove();
+    });
+    li.append(deleteBtn);
     ul.appendChild(li);
     inputElement.value = "";
     li.addEventListener('click', function() {
-        li.classList.add('listStrikeOff');
+        this.classList.add('listStrikeOff');
     });
     li.addEventListener('mouseover', function() {
-        li.classList.add('showDeleteIcon');
-        li.addEventListener('click', function() {
-            li.remove();
+        //.style.visibility = "visible";
+       var deleteBtn = this.getElementsByTagName('button');
+       deleteBtn[0].style.visibility = "visible";
         });
+    li.addEventListener('mouseleave', function() {
+        var deleteBtn = this.getElementsByTagName('button');
+       deleteBtn[0].style.visibility = "hidden";
+       
     });
-    });
-    
+    });    
 }
 
 
