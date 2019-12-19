@@ -38,8 +38,7 @@ inputElement.addEventListener('change', function(event){
         });
     li.addEventListener('mouseleave', function() {
         var deleteBtn = this.getElementsByTagName('button');
-       deleteBtn[0].style.visibility = "hidden";
-       
+       deleteBtn[0].style.visibility = "hidden";       
     });
     });    
 }

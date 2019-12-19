@@ -1,0 +1,27 @@
+.container {
+    background-color: #abebc6;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.h1 {
+    color: #fff;
+}
+.plus-sign {
+    height: 50px; 
+    text-align: center;
+}
+.section {
+    margin : 50px;
+}
+.line-through {
+text-decoration-line: line-through;
+}
+.showDeleteIcon {
+background-image: url('/home/anusha/projectJs/Assignment_JS/ToDo/images/Selection_041.png');
+width: 20px;
+height: 20px;
+position: relative;
+background-repeat: no-repeat;
+}
