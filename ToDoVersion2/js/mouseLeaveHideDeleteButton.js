@@ -1,3 +1,3 @@
 function mouseLeaveHideDeleteButton() {
-    this.classList.remove('showDeleteIcon');
+    this.children[0].style.visibility = "hidden";
 }

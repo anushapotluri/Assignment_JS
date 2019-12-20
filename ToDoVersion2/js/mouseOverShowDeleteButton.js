@@ -1,3 +1,3 @@
 function mouseOverShowDeleteButton() {
-    this.classList.add('showDeleteIcon');
+    this.children[0].style.visibility = "visible";
 }
