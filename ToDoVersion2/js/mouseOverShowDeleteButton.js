@@ -1,3 +1,3 @@
 function mouseOverShowDeleteButton() {
-    this.children[0].style.visibility = "visible";
+    this.children[0].style.display = "block";
 }

@@ -1,8 +1,8 @@
 function showOrHideInputField() {
     var toDoInputField = document.getElementById('todo');
-    if(toDoInputField.style.visibility === "visible"){
-    toDoInputField.style.visibility = "hidden";
+    if(toDoInputField.style.display === "block"){
+    toDoInputField.style.display = "none";
     }else{
-        toDoInputField.style.visibility ="visible";
+        toDoInputField.style.display ="block";
     }
 }

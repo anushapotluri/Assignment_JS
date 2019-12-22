@@ -1,34 +1,62 @@
 .container {
-    background-color: #abebc6;
+    background: linear-gradient(#abe8eb, #bfebab);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
 }
-.header {
-    display: flex;
-    justify-content: space-around;
-}
-.h1 {
+.h3 {
     color: #fff;
+    background-color: blue;
+    text-align: center;
+    margin: 0;
+    width: 270px;
+}
+.todo {
+    width: 300px;
+}
+.todoLists {
+    background-color: #fff;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+.todoLists li {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.todoLists li:nth-child(2n) {
+    background-color: gray;
 }
 .plus-sign {
-    height: 50px; 
+    width: 30px;
     text-align: center;
+    background-color:white;
+    cursor: pointer;
 }
 .section {
-    margin : 50px;
+    width: 300px;
+    margin : auto;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .line-through {
-text-decoration-line: line-through;
+    text-decoration-line: line-through;
 }
 .toDoElement {
     display: flex;
 }
 .deleteButton {
     background-image: url('../images/delete.svg');
-    width: 20px;
-    height: 20px;
+   height: 25px;
+   width: 25px;
     background-repeat: no-repeat;
     background-size: 100%;
     border: none;
     background-color:rgba(0,0,0,0);
-    margin-left: 10px;
-    visibility: hidden;
+    display: none;
+    cursor: pointer;
 }
